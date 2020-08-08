@@ -1,0 +1,278 @@
+.navbar-toggle 
+{
+    border: 1px  solid white;
+    margin-top: 15px;
+}
+.navbar-toggle .icon-bar
+{
+    background-color:!transparent;
+}
+.navbar-toggle .icon-bar+.icon-bar
+{
+    margin-top: 4px;
+}
+
+.topheader
+{
+   background: white;
+   
+}
+.topNav
+{
+    list-style-type: none;
+    text-align: right;
+    padding: 0px;
+    font-size:15px;
+    color: black;
+    text-transform: uppercase;
+}
+.headerLink
+{
+    color:crimson;
+    font-weight:bold;
+    margin-left: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+.headerLink:hover {
+background-color: yellow;
+}
+.a:hover
+{
+    color:crimson;
+}
+#img
+{
+   height: 50px;
+   margin-left: 95px;
+}
+.navbar
+{
+    background: crimson;
+}
+.nav-link
+{
+        font-size: 20px;
+        color:white;
+        font-family: 'Lobster', cursive;
+
+}
+a
+{
+          text-decoration: none;
+              text-decoration: none;
+}
+.images
+{
+    height:10%;
+}
+.HLine
+{
+    text-align:left;
+    width:150px;
+    color:black;
+    margin-left: 0px;
+    height: 1px;
+    background-color: black;
+    margin-top: 22px;
+}
+.icons
+{
+    font-size: 28px;
+}
+.Experiance
+{
+     background-image: url("C:\Users\Mahima\Documents\Navnath Website\Images\SlideImage1.jpg");
+     
+}
+.v1
+{
+    border-left: 6px solid crimson;
+  height: 50px;
+  margin-left: 100px;
+}
+
+
+.col-md-4
+{
+    width: -webkit-fill-available;
+
+}
+.info-body img {
+    text-align: center;
+    font-size: 40px;
+    width: 100px;
+    line-height: 100px;
+    height: 100px;
+    color: #f84a4a !important;
+}
+.OurServices h3
+{
+    text-align: center;
+    color:crimson;
+    text-transform: capitalize;
+    letter-spacing:2px;
+    word-spacing:1px;
+}
+.OurServices hr
+{
+    width:150px;
+    height: 3px;
+    background: rgb(141, 31, 31);
+    text-align: center;
+}
+
+.footer
+{
+    background:crimson;
+    text-align:center;
+    height:30px;
+    padding-bottom: 20px;
+    color:white;
+    margin-top: 45px;
+}
+
+<!--About US Start-->
+ul
+{
+    
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb-block {
+	padding-top: 20px;
+}
+.breadcrumb-block.corporate {
+	padding: 0;
+    position: fixed;
+    top: 180px;
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9999;
+}
+.breadcrumb-list {
+	overflow: hidden; 
+    list-style: none;
+}
+.breadcrumb-list li { 
+	float: left; 
+}
+.breadcrumb-list li a {
+	color: white;
+	text-decoration: none; 
+	padding: 10px 0 10px 65px;
+	background: brown;                  
+	background: hsla(0, 59%, 41%,1); 
+	position: relative; 
+	display: block;
+	float: left;
+	transition: none;
+}
+.breadcrumb-list li a:after { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;         
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid hsla(0, 59%, 41%,1);
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	left: 100%;
+	z-index: 2; 
+}
+.breadcrumb-list li a:before { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;       
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1; 
+}
+.breadcrumb-list li:first-child a {
+	padding-left: 10px;
+}
+.breadcrumb-list li:nth-child(2) a       { background:        hsla(0, 59%, 45%,1); }
+.breadcrumb-list li:nth-child(2) a:after { border-left-color: hsla(0, 59%, 45%,1); }
+.breadcrumb-list li:nth-child(3) a       { background:        hsla(0, 59%, 55%,1); }
+.breadcrumb-list li:nth-child(3) a:after { border-left-color: hsla(0, 59%, 55%,1); }
+.breadcrumb-list li:nth-child(4) a       { background:        hsla(0, 59%, 65%,1); }
+.breadcrumb-list li:nth-child(4) a:after { border-left-color: hsla(0, 59%, 65%,1); }
+.breadcrumb-list li:nth-child(5) a       { background:        hsla(0, 59%, 75%,1); }
+.breadcrumb-list li:nth-child(5) a:after { border-left-color: hsla(0, 59%, 75%,1); }
+.breadcrumb-list li:nth-child(6) a       { background:        hsla(0, 59%, 85%,1); }
+.breadcrumb-list li:nth-child(6) a:after { border-left-color: hsla(0, 59%, 85%,1); }
+.breadcrumb-list li:last-child a {
+	background: transparent !important;
+	color: black;
+	pointer-events: none;
+	cursor: default;
+}
+.breadcrumb-list li:last-child a:after, .breadcrumb-list li:last-child a:before { display: none; }
+.breadcrumb-list li a:hover { background: hsla(0, 59%, 25%,1); }
+.breadcrumb-list li a:hover:after { border-left-color: hsla(0, 59%, 25%,1) !important; }
+
+.aboutUs
+{
+  padding-top: 4px;
+}
+.headingAbout
+{
+    color:crimson;
+        text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+}
+.AboutLine
+{
+    text-align:center;
+    height:1px;
+    width:50%;
+    background:crimson;
+}
+.OurMisssionPara
+{
+    font-size:20px;
+    color:crimson;
+
+}
+
+
+<!--OurServices Start-->
+<!--ContactUs start-->
+.info
+{
+    font-size: 18px;
+    font-weight:bold;
+}
+.ContactUsHeader
+{
+    font-family: 'Red Rose', cursive;
+    margin-bottom:5px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    z-index: 100001;
+    transition: all ease 1.5s;
+    filter: alpha(opacity=0);
+    border-radius: 10px;
+}
+
+
